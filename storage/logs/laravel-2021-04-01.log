@@ -82,3 +82,27 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2021-04-01 06:57:47] prodcution.ERROR: Uncaught Error: Class 'Auth0\Login\Auth0User' not found in /home/alex/Documentos/elmenu/app/Models/MyAuth0User.php:8
+Stack trace:
+#0 /home/alex/Documentos/elmenu/vendor/composer/ClassLoader.php(478): include()
+#1 /home/alex/Documentos/elmenu/vendor/composer/ClassLoader.php(346): Composer\Autoload\includeFile()
+#2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 Command line code(1): class_exists()
+#5 [internal function]: {closure}()
+#6 Command line code(1): array_filter()
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Class 'Auth0\\Login\\Auth0User' not found in /home/alex/Documentos/elmenu/app/Models/MyAuth0User.php:8
+Stack trace:
+#0 /home/alex/Documentos/elmenu/vendor/composer/ClassLoader.php(478): include()
+#1 /home/alex/Documentos/elmenu/vendor/composer/ClassLoader.php(346): Composer\\Autoload\\includeFile()
+#2 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 Command line code(1): class_exists()
+#5 [internal function]: {closure}()
+#6 Command line code(1): array_filter()
+#7 {main}
+  thrown at /home/alex/Documentos/elmenu/app/Models/MyAuth0User.php:8)
+[stacktrace]
+#0 {main}
+"} 
