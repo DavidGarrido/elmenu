@@ -138,7 +138,7 @@ class RestorantController extends Controller
         //Send email to the user/owner
         $owner->notify(new RestaurantCreated($generatedPassword, $restaurant, $owner));
 
-        return redirect()->route('admin.restaurants.create')->withStatus(__('Restaurant successfully created.'));
+        return redirect()->route('admin.restaurants.index')->withStatus(__('Restaurant successfully created.'));
     }
 
     /**
