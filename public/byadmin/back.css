@@ -1,0 +1,89 @@
+/*backend*/
+
+/*fondos*/
+.bg-gradient-danger {
+   background: rgb(56,124,67)!important;
+background: linear-gradient(90deg, rgba(56,124,67,1) 0%, rgba(94,193,110,1) 50%, rgba(52,157,70,1) 100%)!important;
+}
+
+.bg-gradient-primary {
+  background: rgb(56,124,67)!important;
+background: linear-gradient(90deg, rgba(56,124,67,1) 0%, rgba(94,193,110,1) 50%, rgba(52,157,70,1) 100%)!important;
+}
+
+/*ocultar iconos de estadísticas*/
+
+div.icon.icon-shape.bg-yellow.text-white.rounded-circle.shadow {
+  display: none!important;
+}
+
+div.icon.icon-shape.bg-danger.text-white.rounded-circle.shadow {
+  display: none!important;
+}
+
+div.icon.icon-shape.bg-warning.text-white.rounded-circle.shadow {
+  display: none!important;
+}
+
+div.icon.icon-shape.bg-info.text-white.rounded-circle.shadow {
+  display: none!important;
+}
+
+/*checkout*/
+
+.card {
+  margin-top: 6px!important;
+}
+
+/*fronted*/
+
+/*reestablecer contraseña*/
+
+div.main-content {
+  background-color: whitesmoke!important;
+}
+
+button.btn.btn-primary.my-4 {
+  background-color: #56B466!important;
+  border-color: #56B466!important;
+}
+
+/*botones*/
+button.btn.btn-danger.my-4 {
+  background-color: #56B466!important;
+  border-color: #56B466!important;
+}
+
+div a small {
+  border-color: #000000!important;
+  color: #137325!important;
+  
+}
+
+div a small:hover {
+  color: #56B466!important;
+}
+
+/*login*/
+
+
+@media only screen and (min-width: 768px) {
+img.thumbnail {
+  margin-top: -24px!important;
+  height: 100px!important;
+  width: auto!important;
+}
+div.col-lg-5.col-md-7 {
+  margin-top: -72px!important;
+}
+}
+ 
+
+@media only screen and (max-width: 768px) {
+img.thumbnail {
+  height: 100px!important;
+  width: auto!important;
+    margin-top: 30px!important;
+
+}
+}

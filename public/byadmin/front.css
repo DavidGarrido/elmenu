@@ -1,0 +1,9 @@
+/*area de registro*/
+div.alert.alert-success.alert-dismissible.fade.show {
+  background-color: #56B466!important;
+}
+
+button.btn.btn-success.mt-4 {
+    background-color: #56B466!important;
+
+}
